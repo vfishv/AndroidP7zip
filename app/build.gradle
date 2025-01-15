@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 35
-    namesapce "com.hzy.p7zip.app"
+    namespace "com.hzy.p7zip.app"
 
     signingConfigs {
         demokey {
