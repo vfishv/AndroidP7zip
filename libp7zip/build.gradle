@@ -3,11 +3,11 @@ apply plugin: 'com.android.library'
 //apply plugin: 'com.github.panpf.bintray-publish'
 
 android {
-    compileSdkVersion 35
+    compileSdk 35
+    namespace "com.hzy.libp7zip"
 
     defaultConfig {
-        minSdkVersion 15
-        targetSdkVersion 30
+        minSdkVersion 16
         versionCode 8
         versionName "1.7.1"
         externalNativeBuild {
