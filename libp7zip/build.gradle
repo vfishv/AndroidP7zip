@@ -5,7 +5,7 @@ apply plugin: 'com.android.library'
 android {
     compileSdk 35
     namespace "com.hzy.libp7zip"
-
+    ndkVersion "25.2.9519653"
     defaultConfig {
         minSdkVersion 16
         versionCode 8
