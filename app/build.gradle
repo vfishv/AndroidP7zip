@@ -1,8 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 35
+    compileSdkVersion 36
     namespace "com.hzy.p7zip.app"
+
+    buildFeatures {
+        viewBinding true
+    }
 
     signingConfigs {
         demokey {
@@ -15,7 +19,7 @@ android {
     defaultConfig {
         applicationId "com.hzy.p7zip.app"
         minSdkVersion 16
-        targetSdkVersion 30
+        targetSdkVersion 35
         versionCode 8
         versionName "1.7.1"
         ndk {
