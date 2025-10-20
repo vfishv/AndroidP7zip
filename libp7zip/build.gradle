@@ -3,7 +3,7 @@ apply plugin: 'com.android.library'
 //apply plugin: 'com.github.panpf.bintray-publish'
 
 android {
-    compileSdk 35
+    compileSdkVersion 36
     namespace "com.hzy.libp7zip"
     ndkVersion "25.2.9519653"
     defaultConfig {
